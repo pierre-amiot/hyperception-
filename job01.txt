@@ -1,0 +1,25 @@
+1) Un hyperviseur, également appelé moniteur de machine virtuelle (VMM), est un logiciel qui permet la virtualisation en créant et en gérant des machines virtuelles (VM). 
+L'hyperviseur crée un environnement isolé dans lequel plusieurs systèmes d'exploitation (OS) peuvent fonctionner simultanément sur une seule machine physique. 
+
+Il existe deux types d'hyperviseurs : de type 1 (hyperviseurs natifs ou bare-metal) qui s'exécutent directement sur le matériel de la machine physique, et de type 2 (hyperviseurs hébergés) qui s'exécutent sur un système d'exploitation hôte existant.
+
+2) Une VM (machine virtuelle) est une instance logicielle d'un système d'exploitation (OS) qui est créée par un hyperviseur. Une VM est une réplique virtuelle d'une machine physique, avec son propre processeur, sa propre mémoire, son propre stockage et sa propre interface réseau.
+
+ Une VM peut être utilisée pour exécuter différents systèmes d'exploitation et applications, et elle peut être migrée d'un serveur physique à un autre pour assurer une haute disponibilité et une meilleure utilisation des ressources.
+
+3)Il existe plusieurs outils disponibles pour créer des VM, notamment :
+
+VMware vSphere
+Microsoft Hyper-V
+Oracle VirtualBox
+KVM (Kernel-based Virtual Machine)
+Xen
+
+4)Les différences entre une VM et un système d'exploitation classique sont les suivantes :
+
+Une VM est créée et gérée par un hyperviseur, tandis qu'un système d'exploitation classique s'exécute directement sur le matériel de la machine physique.
+Une VM peut être migrée d'un serveur physique à un autre, tandis qu'un système d'exploitation classique est lié à la machine physique sur laquelle il est installé.
+
+Plusieurs VM peuvent fonctionner simultanément sur une seule machine physique, tandis qu'un système d'exploitation classique ne peut être exécuté que sur une machine physique à la fois.
+
+Une VM utilise une partie de la mémoire et des ressources processeur de la machine physique pour son propre fonctionnement, ce qui peut entraîner une surcharge, tandis qu'un système d'exploitation classique utilise toute la mémoire et les ressources processeur de la machine physique pour son propre fonctionnement.

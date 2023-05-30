@@ -1,0 +1,13 @@
+GRUB (Grand Unified Bootloader) est un chargeur de démarrage (bootloader) open-source utilisé principalement sur les systèmes d'exploitation Linux. Il est chargé au démarrage de l'ordinateur et permet de sélectionner le système d'exploitation à démarrer si plusieurs sont installés sur le même ordinateur. GRUB peut également être utilisé pour configurer les options de démarrage avancées telles que le mode de récupération, le noyau à utiliser, etc.
+
+Le BIOS (Basic Input/Output System) est un micrologiciel intégré sur la carte mère de l'ordinateur qui contrôle les périphériques matériels de l'ordinateur. Lorsque l'ordinateur démarre, le BIOS effectue un auto-test de démarrage (POST) pour vérifier que tous les périphériques matériels sont opérationnels, puis recherche le dispositif de démarrage (disque dur, clé USB, CD-ROM, etc.) défini dans les paramètres du BIOS. Si un dispositif de démarrage est trouvé, le BIOS charge le chargeur de démarrage (bootloader) installé sur ce périphérique, qui à son tour charge le système d'exploitation.
+
+L'intérêt d'un dual boot par rapport à une machine virtuelle (VM) dépend des besoins de l'utilisateur.
+ Le dual boot permet de démarrer plusieurs systèmes d'exploitation sur la même machine, ce qui peut être utile pour les utilisateurs qui ont besoin d'utiliser des applications ou des environnements de développement spécifiques à un système d'exploitation particulier.
+ Toutefois, le dual boot nécessite de partager les ressources matérielles de l'ordinateur entre les différents systèmes d'exploitation, ce qui peut entraîner des problèmes de performances et de compatibilité matérielle.
+ Par contre, une machine virtuelle permet de créer un environnement isolé et indépendant qui ne partage pas les ressources matérielles de l'ordinateur hôte. Cela peut être utile pour les tests, les développements, les démonstrations, etc. 
+Toutefois, les performances de la machine virtuelle peuvent être affectées par les ressources de l'ordinateur hôte, et certains périphériques matériels ne peuvent pas être directement utilisés dans une machine virtuelle.
+
+
+
+
